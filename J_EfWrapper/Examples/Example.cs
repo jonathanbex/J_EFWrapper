@@ -15,7 +15,7 @@ namespace J_EfWrapper.Examples
     public async Task FirstOrDefaultAsync()
     {
       string sql = "SELECT top 1 * FROM Employees WHERE Id = @Id";
-      var parameters = new { Id = 1};
+      var parameters = new { Id = 1 };
       var employee = await _dbContext.Database.ExecuteSqlPreparedFunction<Employee>(sql, parameters).FirstOrDefaultAsync();
     }
 
