@@ -23,7 +23,7 @@ namespace J_EfWrapper.Examples
     public async Task ToListAsync()
     {
       string sql = "SELECT top 20 * FROM Employees";
-      var employee = await _dbContext.Database.ExecuteSqlPreparedFunction<Employee>(sql, new object[] { }).ToListAsync();
+      var employees = await _dbContext.Database.ExecuteSqlPreparedFunction<Employee>(sql, new object[] { }).ToListAsync();
     }
 
     public async Task ExecuteSqlRawWithDapperAsync()
