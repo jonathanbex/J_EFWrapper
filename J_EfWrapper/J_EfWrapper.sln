@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_EfWrapper", "J_EfWrapper.csproj", "{FFC23D14-DFEF-4FC0-8C2E-70988768FEFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFC23D14-DFEF-4FC0-8C2E-70988768FEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC23D14-DFEF-4FC0-8C2E-70988768FEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC23D14-DFEF-4FC0-8C2E-70988768FEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC23D14-DFEF-4FC0-8C2E-70988768FEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {681C5B9C-F3BB-4C19-920E-AD029CDE02A8}
+	EndGlobalSection
+EndGlobal
